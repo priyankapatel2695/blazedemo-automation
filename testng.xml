@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="BlazeDemo Suite">
+
+    <test name="Smoke Test">
+        <classes>
+            <class name="tests.FlightBookingTest"/>
+        </classes>
+    </test>
+
+    <test name="Data Driven Test">
+        <classes>
+            <class name="tests.DataDrivenBookingTest"/>
+        </classes>
+    </test>
+
+    <test name="Negative Test">
+        <classes>
+            <class name="tests.NegativeBookingTest"/>
+        </classes>
+    </test>
+
+</suite>
