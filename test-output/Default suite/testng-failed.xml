@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.FlightBookingTest">
+      <class name="tests.DataDrivenBookingTest">
         <methods>
           <include name="tearDown"/>
-          <include name="bookFlightTest"/>
           <include name="setup"/>
+          <include name="bookFlightDataDriven" invocation-numbers="1 2"/>
         </methods>
-      </class> <!-- tests.FlightBookingTest -->
+      </class> <!-- tests.DataDrivenBookingTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

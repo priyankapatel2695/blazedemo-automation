@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-failed">Default suite</span>
+              <span class="suite-name border-passed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\sunil patel\AppData\Local\Temp\testng-eclipse--1031898345\testng-customsuite.xml</span>
+                    <span>C:\Users\sunil patel\AppData\Local\Temp\testng-eclipse--752182603\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,21 +92,46 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
-                    <div class="method-list-content failed suite-Default_suite">
+                    <div class="method-list-content passed suite-Default_suite">
                       <span>
-                        <img src="failed.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.NegativeBookingTest" class="method navigator-link" hash-for-method="blankCreditCardTest">blankCreditCardTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.DataDrivenBookingTest" class="method navigator-link" hash-for-method="bookFlightDataDriven(Priyanka, ABC Street, Indore, MP, 452001, 1111222233334444, 12, 2028, Priyanka Patel)">bookFlightDataDriven(Priyanka, ABC Street, Indore, MP, 452001, 1111222233334444, 12, 2028, Priyanka Patel)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.DataDrivenBookingTest" class="method navigator-link" hash-for-method="bookFlightDataDriven(Rahul, XYZ Road, Delhi, Delhi, 110001, 5555666677778888, 10, 2029, Rahul Sharma)">bookFlightDataDriven(Rahul, XYZ Road, Delhi, Delhi, 110001, 5555666677778888, 10, 2029, Rahul Sharma)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.DataDrivenBookingTest" class="method navigator-link" hash-for-method="bookFlightDataDriven(Amit, MG Road, Pune, Maharashtra, 411001, 9999000011112222, 08, 2030, Amit Kumar)">bookFlightDataDriven(Amit, MG Road, Pune, Maharashtra, 411001, 9999000011112222, 08, 2030, Amit Kumar)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="tests.FlightBookingTest" class="method navigator-link" hash-for-method="bookFlightTest">bookFlightTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.NegativeBookingTest" class="method navigator-link" hash-for-method="invalidCreditCardTest">invalidCreditCardTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -118,9 +143,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
+          <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">tests.FlightBookingTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -129,50 +154,68 @@
                   <a name="bookFlightTest">
                   </a> <!-- bookFlightTest -->
                   <span class="method-name">bookFlightTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Booking Successful] but found [Thank you for your purchase today!]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at tests.FlightBookingTest.bookFlightTest(FlightBookingTest.java:41)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.NegativeBookingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="blankCreditCardTest">
+                  </a> <!-- blankCreditCardTest -->
+                  <span class="method-name">blankCreditCardTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidCreditCardTest">
+                  </a> <!-- invalidCreditCardTest -->
+                  <span class="method-name">invalidCreditCardTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.DataDrivenBookingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookFlightDataDriven(Priyanka, ABC Street, Indore, MP, 452001, 1111222233334444, 12, 2028, Priyanka Patel)">
+                  </a> <!-- bookFlightDataDriven(Priyanka, ABC Street, Indore, MP, 452001, 1111222233334444, 12, 2028, Priyanka Patel) -->
+                  <span class="method-name">bookFlightDataDriven</span>
+                  <span class="parameters">(Priyanka,ABC Street,Indore,MP,452001,1111222233334444,12,2028,Priyanka Patel)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookFlightDataDriven(Rahul, XYZ Road, Delhi, Delhi, 110001, 5555666677778888, 10, 2029, Rahul Sharma)">
+                  </a> <!-- bookFlightDataDriven(Rahul, XYZ Road, Delhi, Delhi, 110001, 5555666677778888, 10, 2029, Rahul Sharma) -->
+                  <span class="method-name">bookFlightDataDriven</span>
+                  <span class="parameters">(Rahul,XYZ Road,Delhi,Delhi,110001,5555666677778888,10,2029,Rahul Sharma)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookFlightDataDriven(Amit, MG Road, Pune, Maharashtra, 411001, 9999000011112222, 08, 2030, Amit Kumar)">
+                  </a> <!-- bookFlightDataDriven(Amit, MG Road, Pune, Maharashtra, 411001, 9999000011112222, 08, 2030, Amit Kumar) -->
+                  <span class="method-name">bookFlightDataDriven</span>
+                  <span class="parameters">(Amit,MG Road,Pune,Maharashtra,411001,9999000011112222,08,2030,Amit Kumar)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\sunil patel\AppData\Local\Temp\testng-eclipse--1031898345\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\sunil patel\AppData\Local\Temp\testng-eclipse--752182603\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -181,7 +224,15 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;tests.DataDrivenBookingTest&quot;/&gt;
+      &lt;class name=&quot;pages.HomePage&quot;/&gt;
+      &lt;class name=&quot;pages.PurchasePage&quot;/&gt;
+      &lt;class name=&quot;pages.ConfirmationPage&quot;/&gt;
+      &lt;class name=&quot;tests.NegativeBookingTest&quot;/&gt;
       &lt;class name=&quot;tests.FlightBookingTest&quot;/&gt;
+      &lt;class name=&quot;utils.ScreenshotUtil&quot;/&gt;
+      &lt;class name=&quot;pages.ReservePage&quot;/&gt;
+      &lt;class name=&quot;utils.BaseClass&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -195,7 +246,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Default test (9 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -221,16 +272,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'bookFlightTest')
-data.setCell(0, 2, 'tests.FlightBookingTest')
-data.setCell(0, 3, 7804);
+data.setCell(0, 1, 'bookFlightDataDriven')
+data.setCell(0, 2, 'tests.DataDrivenBookingTest')
+data.setCell(0, 3, 6754);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'invalidCreditCardTest')
+data.setCell(1, 2, 'tests.NegativeBookingTest')
+data.setCell(1, 3, 5501);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'bookFlightDataDriven')
+data.setCell(2, 2, 'tests.DataDrivenBookingTest')
+data.setCell(2, 3, 5070);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'bookFlightDataDriven')
+data.setCell(3, 2, 'tests.DataDrivenBookingTest')
+data.setCell(3, 3, 4987);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'bookFlightTest')
+data.setCell(4, 2, 'tests.FlightBookingTest')
+data.setCell(4, 3, 4280);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'blankCreditCardTest')
+data.setCell(5, 2, 'tests.NegativeBookingTest')
+data.setCell(5, 3, 4025);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -256,20 +327,84 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.FlightBookingTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">tests.DataDrivenBookingTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">bookFlightTest</span>
-                <span class="method-start">4906 ms</span>
+                <span class="method-name">bookFlightDataDriven(Priyanka, ABC Street, Indore, MP, 452001, 1111222233334444, 12, 2028, Priyanka Patel)</span>
+                <span class="method-start">5900 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=bookFlightTest status=FAILURE method=FlightBookingTest.bookFlightTest()[pri:0, inst...)</span>
-                <span class="method-start">12720 ms</span>
+                <span class="method-name">tearDown([TestResult name=bookFlightDataDriven status=SUCCESS method=DataDrivenBookingTest.bookFlightDataDriv...)</span>
+                <span class="method-start">12669 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">13639 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bookFlightDataDriven(Rahul, XYZ Road, Delhi, Delhi, 110001, 5555666677778888, 10, 2029, Rahul Sharma)</span>
+                <span class="method-start">17021 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=bookFlightDataDriven status=SUCCESS method=DataDrivenBookingTest.bookFlightDataDriv...)</span>
+                <span class="method-start">22035 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">23685 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bookFlightDataDriven(Amit, MG Road, Pune, Maharashtra, 411001, 9999000011112222, 08, 2030, Amit Kumar)</span>
+                <span class="method-start">26972 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=bookFlightDataDriven status=SUCCESS method=DataDrivenBookingTest.bookFlightDataDriv...)</span>
+                <span class="method-start">32049 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.NegativeBookingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">32790 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">blankCreditCardTest</span>
+                <span class="method-start">36666 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=blankCreditCardTest status=SUCCESS method=NegativeBookingTest.blankCreditCardTest()...)</span>
+                <span class="method-start">40693 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">41497 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidCreditCardTest</span>
+                <span class="method-start">44157 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=invalidCreditCardTest status=SUCCESS method=NegativeBookingTest.invalidCreditCardTe...)</span>
+                <span class="method-start">49667 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.FlightBookingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">50601 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bookFlightTest</span>
+                <span class="method-start">53774 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=bookFlightTest status=SUCCESS method=FlightBookingTest.bookFlightTest()[pri:0, inst...)</span>
+                <span class="method-start">58056 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
